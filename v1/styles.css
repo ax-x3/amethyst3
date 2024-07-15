@@ -1,0 +1,103 @@
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
+    body {-webkit-text-size-adjust:none;}
+}
+
+
+body {
+    margin: 0;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 24px;
+}
+#notice {
+    font-size: 12px;
+    padding: 1px 5px 2px 5px;
+    background: #15051d;
+    color: #f1ddff;
+}
+#pagetop {
+    background: #15051d;
+    padding: 350px 0 400px 0;
+    text-align: center;
+}
+#toptitle {
+    color: #f1ddff;
+    font-size: 60px;
+    text-shadow: 0 0 20px #f1ddff;
+    font-weight: 100;
+}
+#pronouns {
+    text-align: center;
+    color: #321340;
+    font-weight: 100;
+    transition: ease-in-out 100ms;
+}
+#pronouns:hover {
+    color: #f1ddff;
+    text-shadow: 0 0 12px #f1ddff;
+    transition: ease-in-out 100ms;
+}
+#pagetransitionI {
+    background: linear-gradient(#15051d, #f1ddff);
+    height: 300px;
+}
+#pagebody {
+    background: #f1ddff;
+    color: #9b76ac;
+    padding: 20px 10% 100px 10%;
+    font-size: 24px;
+}
+h1 {
+    font-size: 60px;
+    color: #f1ddff;
+    text-shadow: -2px -2px 5px #fff9, 2px 2px 5px #0004;
+    transition: ease-in-out 100ms;
+}
+h1:hover {
+    color: #933bd2;
+    transition: ease-in-out 100ms;
+}
+#column {
+    display: inline-block;
+    vertical-align: top;
+}
+ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+li {
+    margin-bottom: 30px;
+}
+#pagetransitionII {
+    background: linear-gradient(#f1ddff, #9b76ac);
+    height: 300px;
+}
+#pagebottom {
+    background: #9b76ac;
+    color: #f1ddff;
+    padding: 20px 10% 100px 10%;
+}
+h2 {
+    font-size: 60px;
+    color: #9b76ac;
+    text-shadow: -2px -2px 5px #fff3, 2px 2px 5px #0005;
+    transition: ease-in-out 100ms;
+}
+h2:hover {
+    color: #2d014c;
+    transition: ease-in-out 100ms;
+}
+#socialicon {
+    background-color: #9b76ac;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    margin: 5px;
+    object-fit:scale-down;
+    border-radius: 15px;
+    box-shadow: -2px -2px 5px #fff3, 2px 2px 5px #0005;
+    transition: ease-in-out 100ms;
+}
+#socialicon:hover {
+    background-color: #b997c9;
+    transition: ease-in-out 100ms;
+}

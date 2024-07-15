@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="min-width=device-width, initial-scale=0.65">
+        <title>amethyst</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="amcluster.png" rel="icon">
+    </head>
+    <body onload="deblur();" onscroll="scrolled();">
+        <div id="navbar">
+            <div class="navbarBlock">
+                <span class="navbarOpened"><a href="history.html">history</a></span>
+                <span class="navbarClosed"><a href="index.html">amethyst</a></span>
+                <br>
+                <span class="navbarClosed"><a href="art.html">art</a></span>
+                <span class="navbarClosed"><a href="programming.html">programming</a></span>
+                <span class="navbarClosed"><a href="socials.html">socials</a></span>
+            </div>
+            <div class="navbarBlock">
+                <a href="index.html"><img src="amcluster.png" style="width:65px;transform:rotate(180deg);"></a>
+            </div>
+        </div>
+        <div id="scrollHint">
+            <span class="specialFont">scroll down<br><img src="icons/scroll.svg" style="height:2em;"></span>
+        </div>
+        <div id="content">
+            <div class="specialFont">AMEmdrn v3.1.0 &copy; amethyst forever</div>
+            <br><br>
+            <div class="cover">
+                <div style="height:10vh;"></div>
+                <h2 class="subFont">/history</h2>
+                <h1 class="displayFont"><b>site history</b></h1>
+                <div style="height: calc(300px - 35vw);"></div>
+                <h3 class="pFont">Previous versions of amethystx.pages.dev</h3>
+            </div>
+
+            <div style="padding:2vw 3vw;background:linear-gradient(135deg, #ddd, #666);border-radius:3vw;box-shadow: 0.5vw 0.5vw 1vw #0008, inset 0.5vw 0.5vw 1vw #fffc, inset -0.5vw -0.5vw 1vw #0008;">
+                <h2 class="displayFont"><b>The Version History Time Machine</b></h2>
+                <h3 class="subFont">Select a version and hit Go!</h3>
+                <br><br>
+                <div class="pFont">
+                    <div style="display:inline-block;">~/versions/</div>
+                    <select id="versionSelector" style="display:inline-block;font-family:inherit;font-weight:100;font-size: inherit;">
+                        <option value="v3">v3 (you are here)</option>
+                        <option value="v2">v2</option>
+                        <option value="v1">v1</option>
+                    </select>
+                    <button onclick="goToVersion(); return false;" style="font: inherit;">Go!</button>
+                </div>
+                <br><br>
+                <h3 class="subFont">I was too lazy to apply CSS to this form.</h3>
+                <h3 class="subFont">Amethyst Inc. is not liable for any damages caused by The Version History Time Machine™.</h3>
+            </div>
+
+            <div style="height:calc(6vh + 6vw);"></div>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+    <footer>
+        <div class="footerDisplayFont">Find me on</div>
+        <br>
+        <div>
+            <a href="https://discord.com/users/802178124342493224"><span class="footerLink"><nobr><img src="icons/discord.svg"> Discord</nobr></span></a>
+            <a href="https://www.deviantart.com/am3thystx"><span class="footerLink"><nobr><img src="icons/deviantart.svg"> DeviantArt</nobr></span></a>
+            <a href="https://github.com/ax-x3"><span class="footerLink"><nobr><img src="icons/github.svg"> GitHub</nobr></span></a>
+            <a href="https://open.spotify.com/user/31e7sfq5u2g7cngl24jtyt2fxwle"><span class="footerLink"><nobr><img src="icons/spotify.svg"> Spotify</nobr></span></a>
+            <a href="https://steamcommunity.com/id/amx3thyst/"><span class="footerLink"><nobr><img src="icons/steam.svg"> Steam</nobr></span></a>
+            <a href="https://www.tiktok.com/@calldibs"><span class="footerLink"><nobr><img src="icons/tiktok.svg"> TikTok</nobr></span></a>
+            <a href="https://www.roblox.com/users/136983129/profile/"><span class="footerLink"><nobr><img src="icons/roblox.svg"> Roblox</nobr></span></a>
+            <a href="https://scratch.mit.edu/users/aivi_/"><span class="footerLink"><nobr><img src="icons/scratch.svg"> Scratch</nobr></span></a>
+        </div>
+        <div style="height:8vh;"></div>
+        <div class="footerDisplayFont">Explore more</div>
+        <br>
+        <div>
+            <a href="index.html"><span class="footerLink"><nobr><img src="icons/amethyst.svg"> amethyst</nobr></span></a>
+            <a href="art.html"><span class="footerLink"><nobr><img src="icons/art.svg"> artwork</nobr></span></a>
+            <a href="programming.html"><span class="footerLink"><nobr><img src="icons/programming.svg"> programming projects</nobr></span></a>
+            <a href="socials.html"><span class="footerLink"><nobr><img src="icons/socials.svg"> social links</nobr></span></a>
+            <!-- <a href="history.html"><span class="footerLink"><nobr><img src="icons/history.svg"> site history</nobr></span></a> -->
+            <a href="https://github.com/ax-x3/aboutme"><span class="footerLink"><nobr><img src="icons/source.svg"> source code</nobr></span></a>
+        </div>
+    </footer>
+</html>
