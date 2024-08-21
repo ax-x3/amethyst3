@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="338.87292mm"
-   height="268.76498mm"
-   viewBox="0 0 338.87292 268.76498"
+   width="338.87299mm"
+   height="338.87299mm"
+   viewBox="0 0 338.87298 338.87298"
    version="1.1"
    id="svg1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -78,7 +78,10 @@
        id="g2"
        inkscape:label="crystal"
        style="display:inline"
-       transform="translate(-713.08016,513.17732)">
+       transform="translate(-713.08013,548.23131)"
+       inkscape:export-filename="g2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          style="display:inline;fill:url(#linearGradient24);fill-opacity:1;stroke:none;stroke-width:26.4583;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill markers stroke"
          d="m 709.71552,-516.6169 -50.61037,99.32833 169.43619,61.53682 70.67163,-77.45884 48.1547,-83.40631 -110.10643,17.4393 -8.7199,55.05347 z"
