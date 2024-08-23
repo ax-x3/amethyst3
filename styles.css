@@ -267,9 +267,12 @@ footer {
     transition: ease-out 100ms;
 }
 
-.footerLink img:not(.home) {
+.footerLink img {
     width: calc(2vw + 10px);
     transform: translate(-0.15em, 0.13em);
+}
+
+.footerLink img:not(.home) {
     filter: invert(21%) sepia(66%) saturate(2436%) hue-rotate(267deg) brightness(83%) contrast(102%);
     -webkit-filter: invert(21%) sepia(66%) saturate(2436%) hue-rotate(267deg) brightness(83%) contrast(102%);
 }
