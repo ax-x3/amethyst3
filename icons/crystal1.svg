@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="2684.1599"
-   height="2684.1599"
-   viewBox="0 0 710.18396 710.18398"
+   width="1440"
+   height="1440"
+   viewBox="0 0 380.99999 381"
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
    sodipodi:docname="amethystcrystal.svg"
-   inkscape:export-filename="../../amethyst.svg"
+   inkscape:export-filename="../../completed misc./2024/amethystcrystal.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -38,6 +38,18 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#231046;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#352c56;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient33"
@@ -82,27 +94,22 @@
          offset="1"
          id="stop24" />
     </linearGradient>
-    <filter
+    <linearGradient
        inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter6"
-       x="-0.43200001"
-       y="-0.43200001"
-       width="1.864"
-       height="1.864">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="68.58"
-         id="feGaussianBlur6" />
-    </filter>
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="245.11037"
+       y1="364.18295"
+       x2="245.11037"
+       y2="87.849937"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(164.592,164.592)">
+     id="layer1">
     <circle
-       style="display:inline;opacity:0.6;fill:#000000;stroke-width:1.323;stroke-miterlimit:10;paint-order:stroke fill markers;filter:url(#filter6)"
+       style="display:none;fill:#000000;stroke-width:1.323;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path1"
        cx="190.5"
        cy="190.5"
@@ -118,5 +125,10 @@
        inkscape:transform-center-y="4.5841482"
        d="M 59.850734,68.675449 113.42513,161.46885 4.2045438,177.88706 90.875027,264.55825 190.49973,364.18288 290.12497,264.55825 376.79555,177.88706 321.14936,68.675449 268.20322,160.38079 200.08726,87.849979 190.49972,148.38134 v 97.16553 l -86.95251,-33.99041 86.95251,-63.17512 -9.58699,-60.53136 z"
        inkscape:label="simplified crystal" />
+    <path
+       id="path2"
+       style="display:none;opacity:0.194404;mix-blend-mode:multiply;fill:url(#linearGradient6);stroke-width:1.323;stroke-miterlimit:10;paint-order:stroke fill markers"
+       d="m 268.20327,160.38091 -18.08159,31.3185 27.33064,19.85719 -86.95284,33.99017 v 118.63617 l 64.53508,-64.53456 121.76105,-121.76156 z m -87.29028,-72.530975 -67.48787,73.618765 17.4532,30.23019 59.62116,-43.31777 z"
+       sodipodi:nodetypes="ccccccccccccc" />
   </g>
 </svg>
