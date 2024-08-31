@@ -69,6 +69,18 @@ a, a:visited, a:active {
     text-shadow: #fff 0 0 4px;
 }
 
+#navbarHome {
+    width:65px;
+    transform:rotate(90deg) translate(0.3em, 0);
+    scale: 1.7;
+    transition: ease-out 100ms;
+}
+
+#navbarHome:hover {
+    scale: 2;
+    filter: brightness(1.5);
+}
+
 #scrollHint {
     position: fixed;
     top: calc(100vh - 3.5em);
